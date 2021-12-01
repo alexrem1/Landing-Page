@@ -1,0 +1,283 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Merkle Final Task</title>
+  </head>
+  <body>
+    <header>
+      <!-- Main navigation – With the following categories: Men, Women, Kids, Prescription & Sale -->
+      <div class="hamburger">
+        <span class="hamburger__btn"> </span>
+      </div>
+      <nav>
+        <ul class="nav">
+          <li class="nav__item"><a href="#">Women</a></li>
+          <li class="nav__item"><a href="#">Men</a></li>
+          <li class="nav__item"><a href="#">Kids</a></li>
+          <li class="nav__item"><a href="#">Prescription</a></li>
+          <li class="nav__item"><a href="#">Sale</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- •	Hero banner - With an image, title & CTA  -->
+    <section class="hero">
+      <div class="hero__overlay"></div>
+      <img
+        class="hero__image"
+        src="https://beatingeatingdisorders.com/wp-content/uploads/2017/12/2017-07-30-07-26-11-1024x678.jpg"
+        alt=""
+        srcset=""
+      />
+      <div class="hero__banner">
+        <h3>Summer is here!</h3>
+        <br />
+        <button class="hero__cta" type="button">Shop Sunglasses</button>
+      </div>
+    </section>
+
+    <!-- •	Popular products carousel – with at least 5 products. Only 3 products should be shown (on desktop) by default & the user should be able to scroll to see the additional products.  -->
+    <section class="carousel">
+      <header>
+        <div class="carousel__heading">Most Popular products</div>
+      </header>
+      <span class="carousel__prevBtn">&#139;</span>
+      <span class="carousel__nextBtn">&#155;</span>
+      <div class="carousel__product-container">
+        <div class="carousel__product">
+          <picture>
+            <img
+              src="https://images.pexels.com/photos/343720/pexels-photo-343720.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+              alt=""
+              id="stop"
+          /></picture>
+          <div class="carousel__image-text">
+            <p>Reflective Aviators</p>
+            <p>£25</p>
+            <button class="carousel__cta">Add to cart</button>
+          </div>
+        </div>
+
+        <div class="carousel__product">
+          <picture>
+            <img
+              src="https://images.pexels.com/photos/7040809/pexels-photo-7040809.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+              alt=""
+          /></picture>
+          <div class="carousel__image-text">
+            <p>Yellow Aviators</p>
+            <p>£35</p>
+            <button class="carousel__cta">Add to cart</button>
+          </div>
+        </div>
+
+        <div class="carousel__product">
+          <picture>
+            <img
+              src="https://images.pexels.com/photos/249210/pexels-photo-249210.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+              alt=""
+          /></picture>
+          <div class="carousel__image-text">
+            <p>Orange Aviators</p>
+            <p>£65</p>
+            <button class="carousel__cta">Add to cart</button>
+          </div>
+        </div>
+
+        <div class="carousel__product">
+          <picture>
+            <img
+              src="https://images.pexels.com/photos/1548027/pexels-photo-1548027.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+              alt=""
+          /></picture>
+          <div class="carousel__image-text">
+            <p>Dark Lense Aviators</p>
+            <p>£55</p>
+            <button class="carousel__cta">Add to cart</button>
+          </div>
+        </div>
+
+        <div class="carousel__product">
+          <picture>
+            <img
+              src="https://images.pexels.com/photos/701877/pexels-photo-701877.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+              alt=""
+          /></picture>
+          <div class="carousel__image-text">
+            <p>Ocean Aviators</p>
+            <p>£45</p>
+            <button class="carousel__cta">Add to cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="carousel__nav">
+        <button
+          class="carousel__indicator carousel__indicator-current-slide"
+        ></button>
+        <button class="carousel__indicator"></button
+        ><button class="carousel__indicator"></button>
+        <button class="carousel__indicator"></button>
+        <button class="carousel__indicator"></button>
+      </div>
+    </section>
+
+    <!-- •	Informational banner – Should contain an icon, title, descriptive text & a link  -->
+    <section class="info">
+      <div class="info__banner-container">
+        <img
+          class="info__banner-icon"
+          src="https://www.pngkey.com/png/detail/62-627900_white-question-mark-on-a-black-circular-background.png"
+        />
+        <p class="info__heading">Have a Question?</p>
+
+        <br />
+        <div class="info__text">
+          From choosing the perfect product to information about your order,
+          we're here to help.
+        </div>
+
+        <br />
+        <div class="info__link"><a href="#">View FAQs</a></div>
+      </div>
+      <div class="info__banner-container">
+        <img
+          class="info__banner-icon"
+          src="http://simpleicon.com/wp-content/uploads/mail-5.png"
+        />
+        <p class="info__heading">Reach Out to Us</p>
+
+        <br />
+        <div class="info__text">
+          Can't find what you're looking for? Get in touch with us for more
+          assistance.
+        </div>
+
+        <div class="info__link"><a href="#">Contact Us</a></div>
+      </div>
+      <div class="info__banner-container">
+        <img
+          class="info__banner-icon"
+          src="https://www.clipartmax.com/png/full/180-1803341_bars-wifi-signal-wifi-icon-png.png"
+        />
+        <p class="info__heading">Follow Us</p>
+
+        <br />
+        <div class="info__text">
+          Follow us on Twitter and Facebook to get access to special offers and
+          contests.
+        </div>
+        <br />
+        <div class="info__link">
+          <a href="#">
+            <img
+              class=""
+              src="https://seeklogo.com/images/T/twitter-square-black-and-white-logo-962E683117-seeklogo.com.png" /></a
+          ><a href="#">
+            <img
+              src="https://www.pngkey.com/png/detail/609-6093392_facebook-square-social-logo-comments-facebook-png-logo.png"
+          /></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- •	Accordion FAQs – Should be able to expand/collapse each FAQ to view informational text.  -->
+    <section class="accordion">
+      <header>
+        <h1>Frequently Asked Questions</h1>
+      </header>
+
+      <div class="accordion__single">
+        <div class="accordion__label">
+          <h5>Payment, coupons & vouchers</h5>
+          <span class="accordion__btn-pluss">+</span
+          ><span class="accordion__btn-circlee"></span>
+        </div>
+        <div class="accordion__content">
+          <p class="accordion__content-style">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+            dolores suscipit voluptatem consectetur autem repellat minima facere
+            provident ex! Excepturi quo et quisquam dolorem officia!
+          </p>
+          <p class="accordion__content-style">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab suscipit
+            cumque maiores aliquid provident. Doloremque.
+          </p>
+        </div>
+      </div>
+      <div class="accordion__single">
+        <div class="accordion__label">
+          <h5>Shipping</h5>
+          <span class="accordion__btn-pluss">+</span
+          ><span class="accordion__btn-circlee"></span>
+        </div>
+        <div class="accordion__content">
+          <p class="accordion__content-style">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae
+            numquam, est qui corporis iste debitis ea porro natus laboriosam
+            fugiat velit asperiores exercitationem maiores rem.
+          </p>
+        </div>
+      </div>
+      <div class="accordion__single">
+        <div class="accordion__label">
+          <h5>Returns</h5>
+          <span class="accordion__btn-pluss">+</span
+          ><span class="accordion__btn-circlee"></span>
+        </div>
+        <div class="accordion__content">
+          <p class="accordion__content-style">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+            dolores suscipit voluptatem consectetur autem repellat minima facere
+            provident ex! Excepturi quo et quisquam dolorem officia!
+          </p>
+          <p class="accordion__content-style">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab suscipit
+            cumque maiores aliquid provident. Doloremque.
+          </p>
+          <p class="accordion__content-style">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+            dolores suscipit voluptatem consectetur autem repellat minima facere
+            provident ex! Excepturi quo et quisquam dolorem officia!
+          </p>
+          <p class="accordion__content-style">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab suscipit
+            cumque maiores aliquid provident. Doloremque.
+          </p>
+        </div>
+      </div>
+      <div class="accordion__single">
+        <div class="accordion__label">
+          <h5>Store locations</h5>
+          <span class="accordion__btn-pluss">+</span
+          ><span class="accordion__btn-circlee"></span>
+        </div>
+        <div class="accordion__content">
+          <p class="accordion__content-style">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+            dolores suscipit voluptatem consectetur autem repellat minima facere
+            provident ex! Excepturi quo et quisquam dolorem officia!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- •	Sticky promotional banner – Should be fixed to the bottom of the window as the users scrolls down the web page. This should contain promotional text & a CTA.  -->
+    <footer class="promo">
+      <div class="promo__group">
+        Summer sale | Get up to 75% off
+        <button class="promo__cta" type="button">Shop Sale</button>
+      </div>
+    </footer>
+
+    <!-- popup -->
+    <div class="popup">
+      <h1>Call to Action</h1>
+      <span class="popup__close">× </span>
+    </div>
+
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
